@@ -13,7 +13,7 @@ https://github.com/RustScan/RustScan
 We can use basic scanning commands:
 
 ```````
-rustscan scanme.nmap.org --ulimit 5000
+rustscan Ip --ulimit 5000
 ```````
 
 User also have other options:
