@@ -1,18 +1,24 @@
-# Rustscan 
+## Rustscan 
 
 Rustscan is a flexible port scanner built in Rust and is both faster and provides accurate results its support for Nmap is seamless and it provides better customizations such as changing flags for Nmap scan, saving the output in Nmap’s XML format.
 
-Installation using Cargo : cargo install rustscan
+## Installation guide :
 
+```````
+cargo install rustscan
+```````
 //Also check installation guide at:
 https://github.com/RustScan/RustScan
 
 We can use basic scanning commands:
 
+```````
 rustscan scanme.nmap.org --ulimit 5000
+```````
 
 User also have other options:
 
+``````
 $ rustscan -h
 USAGE:
     rustscan [FLAGS] [OPTIONS] [addresses]... [-- <command>...]
@@ -44,5 +50,5 @@ ARGS:
                       'rustscan -T 1500 127.0.0.1 -- -A -sC'. This command adds -Pn -vvv -p $PORTS automatically to
                       nmap. For things like --script '(safe and vuln)' enclose it in quotations marks \"'(safe and
                       vuln)'\"")
-
+```````
 //Reference link : https://github.com/RustScan/RustScan
