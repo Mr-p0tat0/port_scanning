@@ -1,11 +1,22 @@
-#naabu port scanning
+# naabu port scanning
 
 Naabu is a great tool from project discovery that is used to scan ports with fair accuracy and speed and with its ease of usability we can easily run it along with other tools from project discovery like subfinder or httpx. The basic host scanning command looks like this:
-
+````
  $ naabu -host scanme.nmap.org -o output.txt
+````
+## Installation: 
+naabu is written in go lang. User need previous setup of go lang.
+### Using go lang.
+```````
+GO111MODULE=on go get -u -v github.com/projectdiscovery/naabu/v2/cmd/naabu
+```````
+### Using github :
+```````
+git clone https://github.com/projectdiscovery/naabu.git
+```````
 
 User can also specifies command syntax according to need 
-
+````
 $ naabu --help
  Usage of naabu:
   -Pn
@@ -49,3 +60,6 @@ $ naabu --help
         Validate the ports again
   -version
         Show version of naabu
+````
+
+Reference link: https://github.com/projectdiscovery/naabu
