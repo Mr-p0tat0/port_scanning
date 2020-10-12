@@ -7,7 +7,7 @@ Rustscan is a flexible port scanner built in Rust and is both faster and provide
 ```````
 cargo install rustscan
 ```````
-//Also check installation guide at:
+Also check installation guide at:
 https://github.com/RustScan/RustScan
 
 We can use basic scanning commands:
@@ -51,4 +51,4 @@ ARGS:
                       nmap. For things like --script '(safe and vuln)' enclose it in quotations marks \"'(safe and
                       vuln)'\"")
 ```````
-//Reference link : https://github.com/RustScan/RustScan
+Reference link : https://github.com/RustScan/RustScan
